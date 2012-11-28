@@ -1,0 +1,37 @@
+TotalPrice base shipping 
+
+Set Shipping cost based on total price of order
+
+----------------------------------------------------------------------
+
+**Install :
+
+**Unzipped and upload admin and catalog folder to the root directory .
+
+**Go to Administration -> Extensions -> Shipping -> TotalPrice base shipping -> click install .
+
+**First will need to setup Geo zones to work with it .
+
+**Go to Administration -> System -> Localisation -> Geo zones
+
+----------------------------------------------------------------------
+
+**Rate setting example 1 :
+
+$1 total $10 , $2 total $20 , $3 total $28 , $4 total $35 , $5 total $42
+
+1:10.00,2:20.00,3:28.00,4:35.00,5:42.00
+
+
+**Rate setting example :
+
+$8 total $15 , $15 total $25 , $25 total $32
+
+8:15.00,15:25.00,25:32.00
+
+So all between $1-$8 TotalPrice is $15 , $9-$15 TotalPrice is $25 , $16-$25 TotalPrice is $32 .
+
+and so on ..
+
+----------------------------------------------------------------------
+
